@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Header Section-->
+    <header class="header" id="header">
+      <div class="overlay"></div>
+      <div class="row">
+        <div class="logo">
+          <img src="images/logo.png" alt="logo" />
+        </div>
+        <div class="category">
+          <img src="images/grid.png" alt="grid" />
+          <span>Category</span>
+        </div>
+        <div class="toggle-btn" id="toggleBtn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav>
+          <ul class="menu-bar">
+            <li><a href="#home">home</a></li>
+            <li><a href="#page">page</a></li>
+            <li><a href="#courses">courses</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+        <div class="right">
+          <div class="form">
+            <form action="#">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Search"
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+          </div>
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <button class="btn">
+            Try for free <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="row">
+            <div class="hero__info text-center">
+              <h1>
+                The Best<br />
+                Program to <span class="red">Enroll</span><br />
+                for Exchange
+              </h1>
+              <p>
+                Excepteur sint occaecat cupidatat non proident sunt in culpa qui
+                officia deserunt mollit.
+              </p>
+              <button class="btn">Find courses</button>
+            </div>
+            <picture class="hero__img">
+              <img src="images/hero-img.png" alt="hero img" />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="classes">
+        <div class="container">
+          <div class="classes__title text-center">
+            <h5 class="red text-uppercase">categories</h5>
+            <h2>
+              Online <span class="green">Classes</span> For Remote Learning.
+            </h2>
+            <p>Consectetur adipiscing elit sed do eiusmod tempor.</p>
+          </div>
+          <div class="row">
+            <div class="class" style="--bg-class: hsla(170, 75%, 41%, 0.07)">
+              <div
+                class="class__img"
+                style="--bg-circle: hsla(170, 75%, 41%, 0.1)"
+              >
+                <img src="images/catalogue.png" alt="catalog" />
+              </div>
+              <h3 class="class__title text-center">Online Degree Programs</h3>
+              <p class="text-center">
+                Lorem ipsum dolor consec tur elit adicing sed umod tempor.
+              </p>
+              <span
+                class="text-center"
+                style="
+                  --bg: hsla(170, 75%, 41%, 0.1);
+                  --color: hsla(170, 75%, 41%, 1);
+                "
+                >15 Courses</span
+              >
+            </div>
+            <div class="class" style="--bg-class: hsla(351, 83%, 61%, 0.07)">
+              <div
+                class="class__img"
+                style="--bg-circle: hsla(351, 83%, 61%, 0.1)"
+              >
+                <img src="images/books.png" alt="books" />
+              </div>
+              <h3 class="class__title text-center">Online Degree Programs</h3>
+              <p class="text-center">
+                Lorem ipsum dolor consec tur elit adicing sed umod tempor.
+              </p>
+              <span
+                class="text-center"
+                style="
+                  --bg: hsla(351, 83%, 61%, 0.1);
+                  --color: hsla(351, 83%, 61%, 1);
+                "
+                >8 Courses</span
+              >
+            </div>
+            <div class="class" style="--bg-class: hsla(229, 75%, 58%, 0.07)">
+              <div
+                class="class__img"
+                style="--bg-circle: hsla(229, 75%, 58%, 0.1)"
+              >
+                <img src="images/house.png" alt="house" />
+              </div>
+              <h3 class="class__title text-center">Online Degree Programs</h3>
+              <p class="text-center">
+                Lorem ipsum dolor consec tur elit adicing sed umod tempor.
+              </p>
+              <span
+                class="text-center"
+                style="
+                  --bg: hsla(229, 75%, 58%, 0.1);
+                  --color: hsla(229, 75%, 58%, 1);
+                "
+                >9 Courses</span
+              >
+            </div>
+            <div class="class" style="--bg-class: hsla(42, 94%, 55%, 0.07)">
+              <div
+                class="class__img"
+                style="--bg-circle: hsla(32, 94%, 55%, 0.1)"
+              >
+                <img src="images/demo.png" alt="demo" />
+              </div>
+              <h3 class="class__title text-center">Online Degree Programs</h3>
+              <p class="text-center">
+                Lorem ipsum dolor consec tur elit adicing sed umod tempor.
+              </p>
+              <span
+                class="text-center"
+                style="
+                  --bg: hsla(32, 94%, 55%, 0.1);
+                  --color: hsla(42, 94%, 55%, 1);
+                "
+                >8 Courses</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="about">
+        <div class="container">
+          <div class="row">
+            <div class="about__img">
+              <img src="images/learn.png" alt="learn" />
+            </div>
+            <div class="about__details">
+              <h5 class="text-uppercase">about us</h5>
+              <h2>
+                Over 10 Years in <span class="red">Distant learning</span> for
+                Skill Development
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod
+                ex tempor incididunt labore dolore magna aliquaenim ad minim.
+              </p>
+              <ul>
+                <li>Expert Trainers</li>
+                <li>Online Remote Learning</li>
+                <li>Lifetime Access</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="courses">
+        <div class="courses-title text-center">
+          <h5 class="text-uppercase">popular courses</h5>
+          <h2>Pick A Course To Get Started</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="course">
+              <div class="course__img">
+                <img src="images/course-1.png" alt="course-1" />
+                <span>15 Weeks</span>
+              </div>
+              <div class="course__details">
+                <span>beginner</span>
+                <h3>Starting SEO as your Home Based Business</h3>
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <p>(5.0/ 3 Ratings)</p>
+                </div>
+                <p class="price red">$30</p>
+                <div class="stats">
+                  <div class="lessons">11 Lessons</div>
+                  <div class="students">229 Students</div>
+                </div>
+              </div>
+            </div>
+            <div class="course">
+              <div class="course__img">
+                <img src="images/course-2.png" alt="course-2" />
+                <span>12 Weeks</span>
+              </div>
+              <div class="course__details">
+                <span>expert</span>
+                <h3>Grow Personal Financial Security Thinking & Principles</h3>
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <p>(5.0/ 2 Ratings)</p>
+                </div>
+                <p class="price red">$49</p>
+                <div class="stats">
+                  <div class="lessons">8 Lessons</div>
+                  <div class="students">74 Students</div>
+                </div>
+              </div>
+            </div>
+            <div class="course">
+              <div class="course__img">
+                <img src="images/course-3.png" alt="course-3" />
+                <span>20 Hours</span>
+              </div>
+              <div class="course__details">
+                <span>all levels</span>
+                <h3>The Complete Guide to Build RESTful API Application</h3>
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <p>(4.0/ 2 Ratings)</p>
+                </div>
+                <p class="price red">Free</p>
+                <div class="stats">
+                  <div class="lessons">9 Lessons</div>
+                  <div class="students">479 Students</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button text-center">
+            <button class="btn">Browse more courses</button>
+          </div>
+        </div>
+      </section>
+      <section class="video">
+        <div class="container">
+          <div class="video__inner text-center">
+            <div class="dots"></div>
+            <img src="images/video.png" alt="video" />
+            <div class="play"><i class="fa-solid fa-play"></i></div>
+          </div>
+        </div>
+      </section>
+      <section class="stats">
+        <div class="container">
+          <div class="row">
+            <div
+              class="stat text-center"
+              style="--bg-stat: hsla(170 75 41 / 10%)"
+            >
+              <h4 class="green">29.3K</h4>
+              <p class="text-uppercase">student enrolled</p>
+            </div>
+            <div
+              class="stat text-center"
+              style="--bg-stat: hsla(360 100 68 / 10%)"
+            >
+              <h4 class="red">32.4K</h4>
+              <p class="text-uppercase">class completed</p>
+            </div>
+            <div
+              class="stat text-center"
+              style="--bg-stat: hsla(260 100 67 / 10%)"
+            >
+              <h4 class="violet">100%</h4>
+              <p class="text-uppercase">satisfaction rate</p>
+            </div>
+            <div
+              class="stat text-center"
+              style="--bg-stat: hsla(32 94 56 / 10%)"
+            >
+              <h4 class="yellow">354+</h4>
+              <p class="text-uppercase">top instructors</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="container">
+          <div class="row">
+            <div class="testimonial__desc">
+              <h5 class="text-uppercase">testimonials</h5>
+              <h2>What Our Students Have To Say</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod
+                tempor incididunt labore dolore magna aliquaenim ad minim.
+              </p>
+              <button class="btn">View All</button>
+            </div>
+            <div class="swiper testimonial__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide testimonial__slide">
+                  <div class="slide__img">
+                    <img src="images/testimonial-1.png" alt="testimonial" />
+                  </div>
+                  <p>
+                    Lorem ipsum dolor amet consec tur elit adicing sed do usmod
+                    zx tempor enim minim veniam quis nostrud exer citation.
+                  </p>
+                  <div class="slide_auth">
+                    <h6>David Owens</h6>
+                    <span>Designer</span>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonial__slide">
+                  <div class="slide__img">
+                    <img src="images/testimonial-3.png" alt="testimonial" />
+                  </div>
+                  <p>
+                    Lorem ipsum dolor amet consec tur elit adicing sed do usmod
+                    zx tempor enim minim veniam quis nostrud exer citation.
+                  </p>
+                  <div class="slide_auth">
+                    <h6>Bob Limones</h6>
+                    <span>Student</span>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonial__slide">
+                  <div class="slide__img">
+                    <img src="images/testimonial-2.png" alt="testimonial" />
+                  </div>
+                  <p>
+                    Lorem ipsum dolor amet consec tur elit adicing sed do usmod
+                    zx tempor enim minim veniam quis nostrud exer citation.
+                  </p>
+                  <div class="slide_auth">
+                    <h6>Robert Lane</h6>
+                    <span>Developer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination slider__control"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="article">
+        <div class="container">
+          <div class="row">
+            <div class="brand">
+              <img src="images/brand-1.png" alt="brand" />
+            </div>
+            <div class="brand">
+              <img src="images/brand-2.png" alt="brand" />
+            </div>
+            <div class="brand">
+              <img src="images/brand-3.png" alt="brand" />
+            </div>
+            <div class="brand">
+              <img src="images/brand-4.png" alt="brand" />
+            </div>
+            <div class="brand">
+              <img src="images/brand-5.png" alt="brand" />
+            </div>
+            <div class="brand">
+              <img src="images/brand-6.png" alt="brand" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="faqs">
+        <div class="container">
+          <div class="row">
+            <div class="faq__img">
+              <img src="images/faq-img.png" alt="faq" />
+            </div>
+            <div class="faq__details">
+              <div class="faq__details-title">
+                <h5 class="text-uppercase">faq's</h5>
+                <h2>
+                  Over 10 Years in
+                  <span class="red">Distant Skill</span> Development
+                </h2>
+              </div>
+              <div class="faq__details-content">
+                <div class="faq-box open">
+                  <div class="question">
+                    <h6>How can I contact a school directly?</h6>
+                    <i class="fa-solid fa-sort-up"></i>
+                  </div>
+                  <div class="answer">
+                    <p>
+                      Lorem ipsum dolor sit amet consectur adipiscing elit sed
+                      eius mod ex tempor incididunt labore dolore magna
+                      aliquaenim ad minim eniam.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-box">
+                  <div class="question">
+                    <h6>How do I find a school where I want to study?</h6>
+                    <i class="fa-solid fa-sort-up"></i>
+                  </div>
+                  <div class="answer">
+                    <p>
+                      Lorem ipsum dolor sit amet consectur adipiscing elit sed
+                      eius mod ex tempor incididunt labore dolore magna
+                      aliquaenim ad minim eniam.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-box">
+                  <div class="question">
+                    <h6>Where should I study abroad?</h6>
+                    <i class="fa-solid fa-sort-up"></i>
+                  </div>
+                  <div class="answer">
+                    <p>
+                      Lorem ipsum dolor sit amet consectur adipiscing elit sed
+                      eius mod ex tempor incididunt labore dolore magna
+                      aliquaenim ad minim eniam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="news">
+        <div class="news-title text-center">
+          <h5 class="text-uppercase">latest articles</h5>
+          <h2>Get News with EduBlink</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="new">
+              <img src="images/news-1.png" alt="new" />
+              <div class="new-info">
+                <span class="text-uppercase">science</span>
+                <h3>Crafting Effective Learning Guide Line</h3>
+                <div class="new-info__middle">
+                  <div class="date">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <span>15 Nov, 2023</span>
+                  </div>
+                  <div class="comment">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <span> Com 0</span>
+                  </div>
+                </div>
+                <p>
+                  aConsectetur adipisicing elit, sed do eiusmod tempor inc...
+                </p>
+              </div>
+            </div>
+            <div class="new">
+              <img src="images/news-2.png" alt="new" />
+              <div class="new-info">
+                <span class="text-uppercase">technology</span>
+                <h3>Exploring Learning Landscapes in Academic</h3>
+                <div class="new-info__middle">
+                  <div class="date">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <span>14 Nov, 2023</span>
+                  </div>
+                  <div class="comment">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <span> Com 3</span>
+                  </div>
+                </div>
+                <p>
+                  Consectetur adipisicing elit, sed do eiusmod tempor inc idid
+                  unt ut labore et dolore magna aliqua enim ad...
+                </p>
+              </div>
+            </div>
+            <div class="new">
+              <img src="images/news-3.png" alt="new" />
+              <div class="new-info">
+                <span class="text-uppercase">learning</span>
+                <h3>Voices from the Learning Education Hub</h3>
+                <div class="new-info__middle">
+                  <div class="date">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <span>13 Nov, 2023</span>
+                  </div>
+                  <div class="comment">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <span> Com 0</span>
+                  </div>
+                </div>
+                <p>
+                  Consectetur adipisicing elit, sed do eiusmod tempor inc idid
+                  unt ut labore...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="box">
+            <div class="logo">
+              <img src="images/foote-logo.png" alt="logo" />
+            </div>
+            <p>
+              Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor
+              incidid unt labore dolore.
+            </p>
+            <ul class="info">
+              <li>Add: 70-80 Upper St Norwich NR2</li>
+              <li>Call: <a href="tel:+01 123 5641 231">+01 123 5641 231</a></li>
+              <li>
+                Email: <a href="mailto:info@edublink.co">info@edublink.co</a>
+              </li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Online Platform</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Course</a></li>
+              <li><a href="#">Instructor</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Instructor Details</a></li>
+              <li><a href="#">Purchase Guide</a></li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Links</h3>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">News & Articles</a></li>
+              <li><a href="#">FAQ’s</a></li>
+              <li><a href="#">Coming Soon</a></li>
+              <li><a href="#">Sign In/Registration</a></li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Contacts</h3>
+            <p>
+              Enter your email address to register to our newsletter
+              subscription
+            </p>
+            <form action="#">
+              <input type="email" placeholder="Your email" />
+              <button type="submit" class="btn">
+                Subscribe <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </form>
+            <ul class="social-media">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9e5ba2e3f5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
